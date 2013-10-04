@@ -40,6 +40,13 @@ Install plugin. Be sure to configure it within the Scout GUI so that it checks f
 If you find bugs, have feature requests or questions, please
 [file an issue](https://github.com/jcstringer/unicorn-watcher/issues).
 
+### Specs
+Tests are run using test/unit and require the mocha gem for stubbing. 
+
+```bash
+ruby test.rb
+```
+
 ## License
 
 Copyright (c) 2013 Chris Stringer
