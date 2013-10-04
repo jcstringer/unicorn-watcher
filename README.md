@@ -23,6 +23,21 @@ Here are a few links with more details about creating and installing Scout plugi
 
 Install plugin. Be sure to configure it within the Scout GUI so that it checks for the correct PID and process name. Then customize alerts in Scout to your liking so you are notified when the unicorn master goes away. 
 
+## Configuration Examples
+There are really only two options to be configured within Scout for this plugin
+
+1. The location of the PID file for your Unicorn master process. The location of this file is entirely dependent on how you have configured your startup scripts. That said, the [Unicorn docs](http://unicorn.bogomips.org/) state that
+_italic_  By default, unicorn_rails(1) will create a PID file in "RAILS_ROOT/tmp/pids/unicorn.pid". You may override this by specifying the "pid" directive to override this Unicorn config file.
+2. The Unicorn master process_name. Typically unicorn master or unicorn_master. Do a 
+```bash
+ps aux|grep unicorn
+```
+to see what yours is called
+
+
+2. 
+/unicorn/g5searchmarketing/unicorn.pid
+
 ## Authors
 
 * Chris Stringer / [@jcstringer](https://github.com/jcstringer)
