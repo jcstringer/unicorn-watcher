@@ -26,8 +26,9 @@ Install plugin. Be sure to configure it within the Scout GUI so that it checks f
 ## Configuration Examples
 There are really only two options to be configured within Scout for this plugin
 
-1. The location of the PID file for your Unicorn master process. The location of this file is entirely dependent on how you have configured your startup scripts. That said, the [Unicorn docs](http://unicorn.bogomips.org/) state that
-_italic_  By default, unicorn_rails(1) will create a PID file in "RAILS_ROOT/tmp/pids/unicorn.pid". You may override this by specifying the "pid" directive to override this Unicorn config file.
+1. The location of the PID file for your Unicorn master process. The location of this file is entirely dependent on how you have configured your startup scripts. 
+2. That said, the [Unicorn docs](http://unicorn.bogomips.org/) state that
+_"By default, unicorn_rails(1) will create a PID file in "RAILS_ROOT/tmp/pids/unicorn.pid". You may override this by specifying the "pid" directive to override this Unicorn config file."_
 2. The Unicorn master process_name. Typically unicorn master or unicorn_master. Do a 
 ```bash
 ps aux|grep unicorn
