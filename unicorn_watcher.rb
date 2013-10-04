@@ -13,7 +13,6 @@ class UnicornWatcher < Scout::Plugin
       default: unicorn_rails master
       name: Name of unicorn master process_name
       notes: Typically unicorn master or unicorn_master. Do a ps aux|grep unicorn to see what yours is called.
-
   EOS
 
   def build_report
