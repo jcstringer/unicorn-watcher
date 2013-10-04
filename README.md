@@ -30,12 +30,10 @@ There are really only two options to be configured within Scout for this plugin
 That said, the [Unicorn docs](http://unicorn.bogomips.org/) state that
 _"By default, unicorn_rails(1) will create a PID file in "RAILS_ROOT/tmp/pids/unicorn.pid". You may override this by specifying the "pid" directive to override this Unicorn config file."_
 2. The Unicorn master process_name. Typically unicorn master or unicorn_master. Do a 
-
-```bash
-ps aux|grep unicorn
-```
-
-to see what yours is called.
+   ```bash
+     ps aux|grep unicorn
+   ```
+  to see what yours is called.
 
 ## Authors
 
