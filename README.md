@@ -2,6 +2,7 @@
 ===============
 
 Scout plugin to monitor when a unicorn master goes down. Checks for the expected pid and process name which are specified in the configuration options for this plugin within Scout.
+
 Disclaimer: I sort of moonlight as a DevOps type so please do submit a Pull Request or at least file an issue if something you see here could be done better. 
 
 ## Current Version
